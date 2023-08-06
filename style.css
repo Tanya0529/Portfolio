@@ -580,5 +580,39 @@ a {
  
 }
 
+@keyframes slideInImage {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+.image img {
+  animation: slideInImage 1.5s ease-in-out;
+}
+
+@keyframes fadeInText {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.head,
+.btn ,
+.text ,
+.bio{
+  animation: fadeInText 1.5s ease-in-out
+}
+
+
+
 
 
