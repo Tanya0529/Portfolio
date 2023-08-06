@@ -14,13 +14,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #010718;
+  background-color: black;
 }
 
 .front {
 
   width: 100vw;
   background-color: black;
+  height: 100%;
 }
 
 
